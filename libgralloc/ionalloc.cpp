@@ -33,6 +33,7 @@
 #include <sys/mman.h>
 #include <stdlib.h>
 #include <fcntl.h>
+#include <string.h>
 #include <cutils/log.h>
 #include <errno.h>
 #include <utils/Trace.h>
