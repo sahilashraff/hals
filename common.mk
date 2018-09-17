@@ -1,11 +1,11 @@
 #Common headers
-common_includes := $(call project-path-for,qcom-display)/libgralloc
-common_includes += $(call project-path-for,qcom-display)/liboverlay
-common_includes += $(call project-path-for,qcom-display)/libcopybit
-common_includes += $(call project-path-for,qcom-display)/libqdutils
-common_includes += $(call project-path-for,qcom-display)/libhwcomposer
-common_includes += $(call project-path-for,qcom-display)/libhdmi
-common_includes += $(call project-path-for,qcom-display)/libqservice
+common_includes := hardware/qcom/display-caf-msm8994/libgralloc
+common_includes += hardware/qcom/display-caf-msm8994/liboverlay
+common_includes += hardware/qcom/display-caf-msm8994/libcopybit
+common_includes += hardware/qcom/display-caf-msm8994/libqdutils
+common_includes += hardware/qcom/display-caf-msm8994/libhwcomposer
+common_includes += hardware/qcom/display-caf-msm8994/libhdmi
+common_includes += hardware/qcom/display-caf-msm8994/libqservice
 
 common_header_export_path := qcom/display
 
