@@ -4,7 +4,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE                  := libsde
 LOCAL_VENDOR_MODULE           := true
 LOCAL_MODULE_TAGS             := optional
-LOCAL_C_INCLUDES              := hardware/qcom/display/displayengine/include/ \
+LOCAL_C_INCLUDES              := hardware/qcom/display-caf-msm8994/displayengine/include/ \
                                  $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
 LOCAL_CFLAGS                  := -Wno-missing-field-initializers -Wno-unused-parameter \
                                  -Wconversion -Wall -Werror \

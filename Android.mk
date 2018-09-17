@@ -1,4 +1,4 @@
-ifeq ($(call my-dir),$(call project-path-for,qcom-display))
+ifeq ($(TARGET_QCOM_DISPLAY_VARIANT),caf-msm8994)
 
 ifeq ($(call is-board-platform-in-list, thulium),true)
     TARGET_USES_SDE = true
